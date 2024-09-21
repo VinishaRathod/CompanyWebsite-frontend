@@ -1,0 +1,126 @@
+.pricing-plan-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+.Monthly-plan{
+    margin: 0 5px 15px 0;
+    padding: 7px;
+    background-color: white;
+    box-shadow: 5px 4px 4px white;
+    border: none;
+}
+.Annual-plan{
+    margin: 0 0 15px 0;
+    padding: 7px;
+    border: none;
+}
+
+.orange-heading {
+    color: orange;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.main-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0F2137;
+    margin-bottom: 40px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.plan-card {
+    background-color: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.plan-card h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.plan-card p {
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.plan-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.plan-features li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #0F2137;
+}
+
+.check-icon {
+    color: green;
+    margin-right: 10px;
+}
+
+.cross-icon {
+    color: red;
+    margin-right: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.plan-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    color: #EF9E48;
+    background-color: #FCF2EF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.plan-button:hover {
+    background-color: darkorange;
+    color:#f9f9f9
+}
+
+.price-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+ .plan-button-1st{
+    padding: 6px;
+    font-size: 1rem;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 2px;
+ }
+.price {
+    color: green;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

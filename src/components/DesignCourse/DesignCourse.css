@@ -1,0 +1,93 @@
+.course-list-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #F3F4F5;
+}
+
+.small-heading {
+    color: orange;
+    font-size: 0.9rem;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.main-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0F2137;
+    margin-bottom: 40px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    align-items: center;
+}
+
+.course-card {
+    display: flex;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play-button {
+    font-size: 1rem;
+    color: orange;
+    flex-shrink: 0;
+    margin-right: 20px;
+    background-color: #F3F4F5;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.course-details {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.rating-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.star-icon {
+    color: orange;
+}
+
+.rating {
+    font-weight: bold;
+    color: #0F2137;
+}
+
+.views, .students {
+    color: grey;
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+
+.course-title {
+    font-weight: bold;
+    color: #0F2137;
+    margin-top: 10px;
+}
+
+.course-description {
+    color: grey;
+    margin-top: 5px;
+}
+
+.course-button {
+    background-color: #3FDBB1; 
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
